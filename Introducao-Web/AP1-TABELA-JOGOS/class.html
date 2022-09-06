@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/respon.css" />
+    <link rel="stylesheet" href="css/class.css" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <header class="cima">
+      <div class="row row_header">
+        <div class="col he">
+          <a
+            href="https://www.google.com/search?gs_ssp=eJzj4tDP1TdINiw0MGD0EsrJTE9USMkvVkhOzC1IPbw1tRgAiOEKSQ&q=liga+dos+campe%C3%B5es&oq=liga+dos+&aqs=chrome.1.69i57j46i131i433i512j46i433i512j0i433i512j46i512l2j0i512l3j0i271.2408j1j7&sourceid=chrome&ie=UTF-8"
+          >
+            <img
+              src="assets/icones/seta-esquerda.png"
+              alt="seta"
+              style="height: 20px"
+              style="width: 10px"
+            />
+          </a>
+          <h5>Liga dos Campeões da UEFA</h5>
+          <h3 id="tabela">Tabela de Jogos</h3>
+        </div>
+      </div>
+      <nav
+        class="navbar navbar-expand-md uls"
+        style="background-color: #162e58"
+      >
+        <div class="container-fluid abs">
+          <a href="#" class="logo">
+            <img
+              class="logo"
+              src="assets/icones/logo-ulbra.png"
+              alt="logo_ulbra"
+              style="height: 30px; text-decoration: none"
+            />
+          </a>
+
+          <!--<h2 class="titulo-btn" style="float: left; color: white;">Tabela de Jogos</h2>-->
+          <button
+            style="border: none"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span
+              ><img
+                src="assets/icones/menu-aberto.png"
+                style="height: 30px"
+                alt=""
+            /></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="https://www.google.com/search?gs_ssp=eJzj4tDP1TdINiw0MGD0EsrJTE9USMkvVkhOzC1IPbw1tRgAiOEKSQ&q=liga+dos+campe%C3%B5es&oq=liga+dos+&aqs=chrome.1.69i57j46i131i433i512j46i433i512j0i433i512j46i512l2j0i512l3j0i271.2408j1j7&sourceid=chrome&ie=UTF-8#sie=lg;/g/11mvmxlddg;2;/m/0c1q0;mt;fp;1;;;">PARTIDAS</a>
+              <a class="nav-link" href="https://www.google.com/search?gs_ssp=eJzj4tDP1TdINiw0MGD0EsrJTE9USMkvVkhOzC1IPbw1tRgAiOEKSQ&q=liga+dos+campe%C3%B5es&oq=liga+dos+&aqs=chrome.1.69i57j46i131i433i512j46i433i512j0i433i512j46i512l2j0i512l3j0i271.2408j1j7&sourceid=chrome&ie=UTF-8#sie=lg;/g/11mvmxlddg;2;/m/0c1q0;nw;fp;1;;;">NOTICIAS</a>
+              <a
+                class="nav-link"
+                href="class.html"
+                style="
+                  color: rgb(255, 255, 255);
+                  border-radius: 10px;
+                  border-bottom: 1px solid white;
+                  border-bottom-right-radius: 10px;
+                  border-bottom-left-radius: 10px;
+                  font-weight: bold;
+                  font-weight: 100;
+                  font-size: 17px !important;
+                "
+                >CLASSIFICAÇÃO</a
+              >
+              <a class="nav-link" href="https://www.google.com/search?gs_ssp=eJzj4tDP1TdINiw0MGD0EsrJTE9USMkvVkhOzC1IPbw1tRgAiOEKSQ&q=liga+dos+campe%C3%B5es&oq=liga+dos+&aqs=chrome.1.69i57j46i131i433i512j46i433i512j0i433i512j46i512l2j0i512l3j0i271.2408j1j7&sourceid=chrome&ie=UTF-8#sie=lg;/g/11mvmxlddg;2;/m/0c1q0;lb;fp;1;;;">ESTATISTICAS</a>
+              <a class="nav-link" href="https://www.google.com/search?gs_ssp=eJzj4tDP1TdINiw0MGD0EsrJTE9USMkvVkhOzC1IPbw1tRgAiOEKSQ&q=liga+dos+campe%C3%B5es&oq=liga+dos+&aqs=chrome.1.69i57j46i131i433i512j46i433i512j0i433i512j46i512l2j0i512l3j0i271.2408j1j7&sourceid=chrome&ie=UTF-8#sie=lg;/g/11mvmxlddg;2;/m/0c1q0;pl;fp;1;;;">JOGADORES</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="meio">
+      <div class="container text-center">
+        <div class="row justify-content-md-center">
+          <div class="col-1 borda-l" style="height: 87px"></div>
+          <div class="col-10 cabeca">
+            <h6
+              style="
+                height: 58px;
+                text-align: start;
+                position: relative;
+                top: 20px;
+                margin-left:20px;
+                color:rgb(136, 136, 136);
+              "
+            >
+              Temporada
+            </h6>
+            <select
+              name="select"
+              style="
+                display: flex;
+                align-items: flex-start;
+                position: relative;
+                top: -15px;
+                border: none;
+                margin-left:20px;
+                background-color: transparent;
+                color: blue;
+              "
+            >
+              <option value="data" selected>2022-23</option>
+              <option value="data">2021-22</option>
+              <option value="data">2020-21</option>
+              <option value="data">2019-20</option>
+              <option value="data">2018-19</option>
+              <option value="data">2017-18</option>
+              <option value="data">2016-17</option>
+              <option value="data">2015-16</option>
+              <option value="data">2014-15</option>
+              s
+            </select>
+          </div>
+          <div class="col-1 borda-r" style="height: 87px"></div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row justify-content-md-center">
+          <div class="col-1 borda-l" style="height: 100vh"></div>
+          <div class="col-10 entro" style="height: 100vh">
+            <table class="table tabelass">
+              <thead>
+                <h5
+                  style="text-align: start; margin-left: 20px; margin-top: 15px"
+                >
+                  Grupo A
+                </h5>
+                <tr>
+                  <th colspan="1" class="clubes">Clube</th>
+                  <th colspan="5"></th>
+                  <th scope="col">PTS</th>
+                  <th scope="col">PJ</th>
+                  <th scope="col">VIT</th>
+                  <th scope="col">DER</th>
+                  <th scope="col">GM</th>
+                  <th scope="col">GC</th>
+                  <th scope="col">SG</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="tr_hovers ">
+                  <th scope="row" class="clubes primeiro">
+                    <span style="position: relative; top: 5px">1</span>
+                    <a href="https://www.google.com/search?gs_ssp=eJzj4tDP1TdINiw0MGD0EsrJTE9USMkvVkhOzC1IPbw1tRgAiOEKSQ&q=liga+dos+campe%C3%B5es&oq=liga+dos+&aqs=chrome.1.69i57j46i131i433i512j46i433i512j0i433i512j46i512l2j0i512l3j0i271.2408j1j7&sourceid=chrome&ie=UTF-8#sie=t;/m/0y54;2;;mt;fp;1"><img src="assets/logo-times/ajax.png" style="padding: 0 !important; margin: 0 !important;" alt=""/></a>
+                    <p id="pts1" style="float:right;
+                    position: relative;
+                    top: 10px;
+                    left:-190px;
+                    text-align: start;
+                    width: 150px;
+                    ">Ajax</p>
+                  </th>
+                  <td colspan="2" style="text-align: start"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                </tr>
+              </tbody><!--ajax-->
+              <tbody>
+                <tr class="tr_hovers ">
+                  <th scope="row" class="clubes segundo">
+                    <span style="position: relative; top: 5px">2</span>
+                    <a href="https://www.google.com/search?gs_ssp=eJzj4tDP1TdINiw0MGD0EsrJTE9USMkvVkhOzC1IPbw1tRgAiOEKSQ&q=liga+dos+campe%C3%B5es&oq=liga+dos+&aqs=chrome.1.69i57j46i131i433i512j46i433i512j0i433i512j46i512l2j0i512l3j0i271.2408j1j7&sourceid=chrome&ie=UTF-8#sie=t;/m/04ltf;2;;mt;fp;1;;;"><img src="assets/logo-times/liverpool.png" style="padding: 0 !important; margin: 0 !important;" alt=""/></a>
+                    <p id="pts" style="float:right;
+                    position: relative;
+                    top: 10px;
+                    left:-190px;
+                    text-align: start;
+                    width: 150px;
+                    ">Liverpool</p>
+                  </th>
+                  <td colspan="2" style="text-align: start"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                </tr>
+              </tbody><!--liverpool-->
+              <tbody>
+                <tr class="tr_hovers 3">
+                  <th scope="row" class="clubes terceiro">
+                    <span style="position: relative; top: 5px">3</span>
+                    <img src="assets/logo-times/napoli.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                    <p id="pts" style="float:right;
+                    position: relative;
+                    top: 10px;
+                    left:-190px;
+                    text-align: start;
+                    width: 150px;
+                    ">Napoli</p>
+                  </th>
+                  <td colspan="2" style="text-align: start"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                </tr>
+              </tbody><!--napoli-->
+              <tbody>
+                <tr class="tr_hovers">
+                  <th scope="row" class="clubes border-club">
+                    <span style="position: relative; top: 5px">4</span>
+                    <img src="assets/logo-times/ranger.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                    <p id="pts" style="float:right;
+                    position: relative;
+                    top: 10px;
+                    left:-190px;
+                    text-align: start;
+                    width: 150px;
+                    ">Rangers</p>
+                  </th>
+                  <td colspan="2" style="text-align: start"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                </tr>
+              </tbody><!--ranger-->
+            </table><!--Grupo A-->
+            
+              <table class="table tabelass">
+                <thead>
+                  <h5
+                    style="text-align: start; margin-left: 20px; margin-top: 15px"
+                  >
+                    Grupo B
+                  </h5>
+                  <tr>
+                    <th colspan="1" class="clubes">Clube</th>
+                    <th colspan="5"></th>
+                    <th scope="col">PTS</th>
+                    <th scope="col">PJ</th>
+                    <th scope="col">VIT</th>
+                    <th scope="col">DER</th>
+                    <th scope="col">GM</th>
+                    <th scope="col">GC</th>
+                    <th scope="col">SG</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="tr_hovers ">
+                    <th scope="row" class="clubes primeiro">
+                      <span style="position: relative; top: 5px">1</span>
+                      <img src="assets/logo-times/porto_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Porto</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers ">
+                    <th scope="row" class="clubes segundo">
+                      <span style="position: relative; top: 5px">2</span>
+                      <img src="assets/logo-times/atleticoMadri_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Atlético Madrid</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers 3">
+                    <th scope="row" class="clubes terceiro">
+                      <span style="position: relative; top: 5px">3</span>
+                      <img src="assets/logo-times/leverKusen_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">LeverKusen</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers">
+                    <th scope="row" class="clubes border-club">
+                      <span style="position: relative; top: 5px">4</span>
+                      <img src="assets/logo-times/ClubBrugge_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Club Brugge</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+              </table><!--Grupo B-->
+              <table class="table tabelass" style="border-left: 1px solid silver;">
+                <thead>
+                  <h5
+                    style="text-align: start; margin-left: 20px; margin-top: -5px;
+                    "
+                  >
+                    Grupo C
+                  </h5>
+                  <tr>
+                    <th colspan="1" class="clubes">Clube</th>
+                    <th colspan="5"></th>
+                    <th scope="col">PTS</th>
+                    <th scope="col">PJ</th>
+                    <th scope="col">VIT</th>
+                    <th scope="col">DER</th>
+                    <th scope="col">GM</th>
+                    <th scope="col">GC</th>
+                    <th scope="col">SG</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="tr_hovers ">
+                    <th scope="row" class="clubes primeiro">
+                      <span style="position: relative; top: 5px">1</span>
+                      <img src="assets/logo-times/Bayer_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Bayern</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers ">
+                    <th scope="row" class="clubes segundo">
+                      <span style="position: relative; top: 5px">2</span>
+                      <img src="assets/logo-times/Barcelona_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Barcelona</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers 3">
+                    <th scope="row" class="clubes terceiro">
+                      <span style="position: relative; top: 5px">3</span>
+                      <img src="assets/logo-times/inter_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Inter</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers">
+                    <th scope="row" class="clubes border-club">
+                      <span style="position: relative; top: 5px">4</span>
+                      <img src="assets/logo-times/plzen_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Plzen</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+              </table><!--Grupo C-->
+          </div>
+          <div class="col-1 borda-r" style="height: 100vh"></div>
+        </div>
+      </div><!--Fim Div tab 1-->
+      <div class="container text-center">
+        <div class="row justify-content-md-center">
+          <div class="col-1 borda-l" style="height: 100vh"></div>
+          <div class="col-10 entro" style="height: 100vh">
+            <table class="table tabelass">
+              <thead>
+                <h5
+                  style="text-align: start; margin-left: 20px; margin-top: 15px"
+                >
+                <br>
+                  Grupo D
+                </h5>
+                <tr>
+                  <th colspan="1" class="clubes">Clube</th>
+                  <th colspan="5"></th>
+                  <th scope="col">PTS</th>
+                  <th scope="col">PJ</th>
+                  <th scope="col">VIT</th>
+                  <th scope="col">DER</th>
+                  <th scope="col">GM</th>
+                  <th scope="col">GC</th>
+                  <th scope="col">SG</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="tr_hovers ">
+                  <th scope="row" class="clubes primeiro">
+                    <span style="position: relative; top: 5px">1</span>
+                    <img src="assets/logo-times/Eintracht_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                    <p id="pts1" style="float:right;
+                    position: relative;
+                    top: 10px;
+                    left:-190px;
+                    text-align: start;
+                    width: 150px;
+                    ">Eintracht</p>
+                  </th>
+                  <td colspan="2" style="text-align: start"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="tr_hovers ">
+                  <th scope="row" class="clubes segundo">
+                    <span style="position: relative; top: 5px">2</span>
+                    <img src="assets/logo-times/Tottenham_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                    <p id="pts1" style="float:right;
+                    position: relative;
+                    top: 10px;
+                    left:-190px;
+                    text-align: start;
+                    width: 150px;
+                    ">Tottenham</p>
+                  </th>
+                  <td colspan="2" style="text-align: start"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="tr_hovers 3">
+                  <th scope="row" class="clubes terceiro">
+                    <span style="position: relative; top: 5px">3</span>
+                    <img src="assets/logo-times/Sporting_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                    <p id="pts1" style="float:right;
+                    position: relative;
+                    top: 10px;
+                    left:-190px;
+                    text-align: start;
+                    width: 150px;
+                    ">Sporting</p>
+                  </th>
+                  <td colspan="2" style="text-align: start"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="tr_hovers">
+                  <th scope="row" class="clubes border-club">
+                    <span style="position: relative; top: 5px">4</span>
+                    <img src="assets/logo-times/Olympoque_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                    <p id="pts1" style="float:right;
+                    position: relative;
+                    top: 10px;
+                    left:-190px;
+                    text-align: start;
+                    width: 150px;
+                    ">Olympique</p>
+                  </th>
+                  <td colspan="2" style="text-align: start"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                </tr>
+              </tbody>
+            </table><!--Grupo D-->
+            
+              <table class="table tabelass">
+                <thead>
+                  <h5
+                    style="text-align: start; margin-left: 20px; margin-top: 15px"
+                  >
+                    Grupo E
+                  </h5>
+                  <tr>
+                    <th colspan="1" class="clubes">Clube</th>
+                    <th colspan="5"></th>
+                    <th scope="col">PTS</th>
+                    <th scope="col">PJ</th>
+                    <th scope="col">VIT</th>
+                    <th scope="col">DER</th>
+                    <th scope="col">GM</th>
+                    <th scope="col">GC</th>
+                    <th scope="col">SG</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="tr_hovers ">
+                    <th scope="row" class="clubes primeiro">
+                      <span style="position: relative; top: 5px">1</span>
+                      <img src="assets/logo-times/MIlan_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Milan</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers ">
+                    <th scope="row" class="clubes segundo">
+                      <span style="position: relative; top: 5px">2</span>
+                      <img src="assets/logo-times/Chelsea_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Chelsea</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers 3">
+                    <th scope="row" class="clubes terceiro">
+                      <span style="position: relative; top: 5px">3</span>
+                      <img src="assets/logo-times/rb_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">RB Salzburg</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers">
+                    <th scope="row" class="clubes border-club">
+                      <span style="position: relative; top: 5px">4</span>
+                      <img src="assets/logo-times/dinamo.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Dínamo</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+              </table><!--Grupo E-->
+              <table class="table tabelass" style="border-left: 1px solid silver;">
+                <thead>
+                  <h5
+                    style="text-align: start; margin-left: 20px; margin-top: -5px;
+                    "
+                  >
+                    Grupo F
+                  </h5>
+                  <tr>
+                    <th colspan="1" class="clubes">Clube</th>
+                    <th colspan="5"></th>
+                    <th scope="col">PTS</th>
+                    <th scope="col">PJ</th>
+                    <th scope="col">VIT</th>
+                    <th scope="col">DER</th>
+                    <th scope="col">GM</th>
+                    <th scope="col">GC</th>
+                    <th scope="col">SG</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="tr_hovers ">
+                    <th scope="row" class="clubes primeiro">
+                      <span style="position: relative; top: 5px">1</span>
+                      <img src="assets/logo-times/RealMadrid_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Real Madrid</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers ">
+                    <th scope="row" class="clubes segundo">
+                      <span style="position: relative; top: 5px">2</span>
+                      <img src="assets/logo-times/RbLei_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">RB Leipzing</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers 3">
+                    <th scope="row" class="clubes terceiro">
+                      <span style="position: relative; top: 5px">3</span>
+                      <img src="assets/logo-times/Sharkantan-GA_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Shakhtar Donetsk</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers">
+                    <th scope="row" class="clubes border-club">
+                      <span style="position: relative; top: 5px">4</span>
+                      <img src="assets/logo-times/Celtik_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Celtic</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+              </table><!--Grupo F-->
+          </div>
+          <div class="col-1 borda-r" style="height: 100vh"></div>
+        </div>
+      </div><!--Fim Div tab 2-->
+
+      <div class="container text-center">
+        <div class="row justify-content-md-center">
+          <div class="col-1 borda-l" style="height: 100vh"></div>
+          <div class="col-10 entro" style="height: 100vh">
+            <table class="table tabelass">
+              <thead>
+                <h5
+                  style="text-align: start; margin-left: 20px; margin-top: 15px"
+                >
+                <br>
+                <br>
+                  Grupo G
+                </h5>
+                <tr>
+                  <th colspan="1" class="clubes">Clube</th>
+                  <th colspan="5"></th>
+                  <th scope="col">PTS</th>
+                  <th scope="col">PJ</th>
+                  <th scope="col">VIT</th>
+                  <th scope="col">DER</th>
+                  <th scope="col">GM</th>
+                  <th scope="col">GC</th>
+                  <th scope="col">SG</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="tr_hovers ">
+                  <th scope="row" class="clubes primeiro">
+                    <span style="position: relative; top: 5px">1</span>
+                    <img src="assets/logo-times/City_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                    <p id="pts1" style="float:right;
+                    position: relative;
+                    top: 10px;
+                    left:-190px;
+                    text-align: start;
+                    width: 150px;
+                    ">City</p>
+                  </th>
+                  <td colspan="2" style="text-align: start"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="tr_hovers ">
+                  <th scope="row" class="clubes segundo">
+                    <span style="position: relative; top: 5px">2</span>
+                    <img src="assets/logo-times/Sevilla_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                    <p id="pts1" style="float:right;
+                    position: relative;
+                    top: 10px;
+                    left:-190px;
+                    text-align: start;
+                    width: 150px;
+                    ">Sevilla</p>
+                  </th>
+                  <td colspan="2" style="text-align: start"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="tr_hovers 3">
+                  <th scope="row" class="clubes terceiro">
+                    <span style="position: relative; top: 5px">3</span>
+                    <img src="assets/logo-times/Borussia_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                    <p id="pts1" style="float:right;
+                    position: relative;
+                    top: 10px;
+                    left:-190px;
+                    text-align: start;
+                    width: 150px;
+                    ">Borussia</p>
+                  </th>
+                  <td colspan="2" style="text-align: start"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr class="tr_hovers">
+                  <th scope="row" class="clubes border-club">
+                    <span style="position: relative; top: 5px">4</span>
+                    <img src="assets/logo-times/Copenhague-E3PAJg_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                    <p id="pts1" style="float:right;
+                    position: relative;
+                    top: 10px;
+                    left:-190px;
+                    text-align: start;
+                    width: 150px;
+                    ">Copenhague</p>
+                  </th>
+                  <td colspan="2" style="text-align: start"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                  <td id="pts"><p>0</p></td>
+                </tr>
+              </tbody>
+            </table><!--Grupo G-->
+            
+              <table class="table tabelass">
+                <thead>
+                  <h5
+                    style="text-align: start; margin-left: 20px; margin-top: 15px"
+                  >
+                    Grupo H
+                  </h5>
+                  <tr>
+                    <th colspan="1" class="clubes">Clube</th>
+                    <th colspan="5"></th>
+                    <th scope="col">PTS</th>
+                    <th scope="col">PJ</th>
+                    <th scope="col">VIT</th>
+                    <th scope="col">DER</th>
+                    <th scope="col">GM</th>
+                    <th scope="col">GC</th>
+                    <th scope="col">SG</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="tr_hovers ">
+                    <th scope="row" class="clubes primeiro">
+                      <span style="position: relative; top: 5px">1</span>
+                      <img src="assets/logo-times/psg_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">PSG</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers ">
+                    <th scope="row" class="clubes segundo">
+                      <span style="position: relative; top: 5px">2</span>
+                      <img src="assets/logo-times/Juventus_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Juventus</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers 3">
+                    <th scope="row" class="clubes terceiro">
+                      <span style="position: relative; top: 5px">3</span>
+                      <img src="assets/logo-times/benfica_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Benfica</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr class="tr_hovers">
+                    <th scope="row" class="clubes border-club">
+                      <span style="position: relative; top: 5px">4</span>
+                      <img src="assets/logo-times/maccabi_48x48.png" style="padding: 0 !important; margin: 0 !important;" alt=""/>
+                      <p id="pts1" style="float:right;
+                      position: relative;
+                      top: 10px;
+                      left:-190px;
+                      text-align: start;
+                      width: 150px;
+                      ">Maccabi Haifa</p>
+                    </th>
+                    <td colspan="2" style="text-align: start"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                    <td id="pts"><p>0</p></td>
+                  </tr>
+                </tbody>
+              </table><!--Grupo H-->
+          </div>
+          <div class="col-1 borda-r" style="height: 100vh"></div>
+        </div>
+      </div><!--Fim Div tab 2-->
+    </main>
+    <footer class="baixo"></footer>
+  </body>
+</html>

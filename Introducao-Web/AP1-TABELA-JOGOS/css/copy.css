@@ -1,0 +1,25 @@
+.jj img
+{
+    align-items: flex-end;
+    background-color: transparent;
+    border: none;
+    border-radius: 20%;
+    text-decoration: none;
+}
+.jj a
+{
+    text-align: center;
+    text-decoration: none;
+}
+.KNcnob
+{
+    position: relative;
+    border-radius: 20%;
+    right: -470px;
+}
+.pP3ABc
+{
+    align-items: flex-end;
+    display: flex;
+    margin-top: 20px;
+}

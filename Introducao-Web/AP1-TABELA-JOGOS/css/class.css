@@ -1,0 +1,57 @@
+.meio
+{
+    height: 100%;
+    min-width: 1450px;
+}
+.tabelass img
+{
+    height: 40px;
+} 
+.tabelass td
+{
+    margin: 0;
+}
+.clubes
+{
+    text-align: start;
+}
+.primeiro,.segundo
+{
+    border-left: 2px solid blue;
+}
+.terceiro
+{
+    border-left: 2px solid rgb(255, 68, 0);
+}
+.border-club2
+{
+    border-left: 2px solid rgb(245, 128, 10);
+}
+.tr_hovers
+{
+    position: relative;
+}
+
+.tr_hovers:hover
+{
+    background-color: rgba(192, 192, 192, 0.208);
+}
+.cabeca
+{
+    background-color: #f1f3f484;
+    border-bottom: 1px solid silver;
+}
+.cabeca, .entro
+{
+    border-right: 1px solid silver;
+    border-left: 1px solid silver;
+    padding: 0 0 !important;
+}
+#pts p
+{
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
