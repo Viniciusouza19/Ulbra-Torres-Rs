@@ -1,7 +1,6 @@
 from random import random
 from funcoes import pesq_funcionario, imprime_funcionario,input2
 import os
-import random
 
 #Variaveis
 banco_funcionario = {}
