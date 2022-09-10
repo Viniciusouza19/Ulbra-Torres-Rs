@@ -11,7 +11,7 @@ while True:
     try:
         #Opçoes
         os.system('clear') or None
-        comando = int(input('Digite a opção desejada: \n1-[Novo-funcionario]\n2-[Pesquisar-funcionario]\n3-[Sair]\nDigite uma das opçoes: '))
+        comando = int(input('MENU: \n1-[Novo-funcionario]\n2-[Pesquisar-funcionario]\n3-[Sair]\nDigite uma das opçoes: '))
         os.system('clear') or None
         
         #Opçao 1 cadastro de funcionario do banco de dados
