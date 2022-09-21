@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+.container
+{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.folha
+{
+    height: 29.7cm;
+    width: 21cm;
+    overflow: hidden;
+}
+.bol 
+{
+    border: 9px dotted green;
+    border-bottom: none;
+    width: 17em;
+    position: relative;
+    left: 60px;
+    top: -25px;
+}
+.bol1
+{
+    border: 9px dotted green;
+    border-bottom: none;
+    width: 220px;
+    position: relative;
+    left: 60px;
+    top: -25px;
+}
+.bol2 
+{
+    border: 9px dotted green;
+    border-bottom: none;
+    width: 220px;
+    position: relative;
+    left: 60px;
+    top: -25px;
+}
+.bol3 
+{
+    border: 9px dotted green;
+    border-bottom: none;
+    width: 150px;
+    position: relative;
+    left: 60px;
+    top: -25px;
+}
+.bol4
+{
+    border: 9px dotted green;
+    border-bottom: none;
+    width: 225px;
+    position: relative;
+    left: 110px;
+    top: -13px;
+}
+.bol5 
+{
+    border: 9px dotted green;
+    border-bottom: none;
+    width: 200px;
+    position: relative;
+    left: 110px;
+    top: -13px;
+}
+.bol6
+{
+    border: 9px dotted green;
+    border-bottom: none;
+    width: 170px;
+    position: relative;
+    left: 110px;
+    top: -13px;
+}
+.bol7 
+{
+    border: 9px dotted green;
+    border-bottom: none;
+    width: 150px;
+    position: relative;
+    left: 110px;
+    top: -13px;
+}
+.bol8 
+{
+    border: 9px dotted green;
+    border-bottom: none;
+    width: 220px;
+    position: relative;
+    left: 110px;
+    top: -13px;
+}
+.bol9
+{
+    border: 9px dotted green;
+    border-bottom: none;
+    width: 150px;
+    position: relative;
+    left: 110px;
+    top: -13px;
+}
+
+.bol10 
+{
+    border: 9px dotted green;
+    border-bottom: none;
+    width: 170px;
+    position: relative;
+    left: 110px;
+    top: -13px;
+}
+.experiencias{
+    position: relative;
+    overflow: hidden;
+}
+.experiencias h4 
+{
+    margin-left: 15px;
+    overflow: hidden;
+}
+.exp
+{
+    margin-left: 15px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.exp h5
+{
+    margin-top: 25px;
+}
+
+  

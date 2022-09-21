@@ -1,0 +1,213 @@
+
+.bc1
+{
+    border: 1px sol
+}
+.bc2
+{
+    border: 3px groove green;
+}
+.space
+{
+    margin: 20px;
+}
+.folha
+{
+    
+    position: relative;
+    border: 10px groove green;
+
+}
+
+.separador
+{
+    border: 2px groove green;
+    background-color: green;
+    height: 4px;
+    position: relative;
+    margin-left: 7em;
+    top: -14px;
+    border-radius: 50px;
+}
+.hrsl
+{
+    background-color: green;
+    border: 2px groove green;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.titulo
+{
+    margin: 20px;
+    margin-top: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: green;
+}
+.nome
+{
+    background-color: green;
+    color: white;
+}
+.foto_desc
+{
+    height: 180px;
+    display: flex;
+}
+#foto
+{
+    width: 179px;
+    margin: px;
+    border-radius: 40px;
+    position: relative;
+}
+#perfil
+{
+    position: absolute;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px groove green;
+}
+.informacoes 
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.informacoes h4{
+    margin: 5px;
+    margin-left: 70px;  
+}
+.informacoes span{
+    color: green; 
+}
+.icons
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    width: 50px;
+    position: relative;
+}
+.icc  img
+{
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    margin-left: 15px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.966);
+        transition: transform 0.6s ease-in-out;  
+        transition: box-shadow 0.2s ease-in-out;
+}
+.icc img:hover
+{
+    transform: scale(1.5);
+}
+.fo
+{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.bloco1,
+.bloco2,
+.bloco3
+{
+    height: 100px;
+    width: 50%;
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px groove green;
+    overflow: hidden;
+    align-items: flex-end;
+    position: relative;
+
+}
+#plss
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+}
+#pls2
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 37px;
+    bottom: 0;
+    margin: auto;
+}
+.bloco1 p
+{
+    position: relative;
+}
+.fo h4{
+    text-align: center;
+    margin: 4px;
+    margin-top: 10px;
+}
+.fo p
+{
+    text-align: center;
+}
+.dupla
+{
+    height: 485px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.left, .right
+{
+    width: 93%;
+}
+.linha
+{
+    position: relative;
+    border-radius: 4px;
+    border: 2px groove green;
+    background-color: green;
+    top: -18px;
+    height: 504px;
+}
+.habs p > img{
+    height: 30px;
+}
+.habs
+{
+    position: relative;
+    top: 15px;
+    overflow: hidden;
+}
+.personalidade
+{
+    position: relative;
+    top: 20px;
+    overflow: hidden;
+}
+.pers
+{
+    margin-top: 10px;
+}
+.idiomas
+{
+    position: relative;
+    top: 20px;
+    overflow: hidden;
+}
+.idi
+{
+    margin-top: 10px;
+}
+
