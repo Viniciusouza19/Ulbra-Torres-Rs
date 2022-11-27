@@ -1,0 +1,15 @@
+{
+  "!tdes": {
+    "scope": "javascript",
+    "prefix": "!tdes",
+    "body": [
+      "let date = new Date();",
+      "let day = date.getDate();",
+      "let month = date.getMonth() + 1;",
+      "let year = date.getFullYear();",
+
+      "document.querySelector('title').innerHTML = day + '/' + month + '/' + year;"
+    ],
+    "description": "script padrao para tdes"
+  }
+}
