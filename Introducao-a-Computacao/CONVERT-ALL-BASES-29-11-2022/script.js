@@ -1,4 +1,4 @@
-const letrasHexa = (x) =>{
+const numberToHexLetter = (x) =>{
     switch(x){
         case 10:
             return "A";
@@ -16,35 +16,57 @@ const letrasHexa = (x) =>{
             return x;
     }
 }
+const hexLetterForNumber = (x) => {
+    switch(x.toUpperCase()){
+        case "A":
+            return 10;
+        case "B":
+            return 11;
+        case "C":
+            return 12;
+        case "D":
+            return 13;
+        case "E":
+            return 14;
+        case "F":
+            return 15;
+        default:
+            return x;
+    }
+}
 
-const toDecimal = (num,base) => {
+const toDecimal = (number,base) => {
     let decimal = 0;
-    let potencia = 0;
-    for(let i = num.length - 1; i >= 0; i--){
-        decimal += num[i] * Math.pow(base, potencia);
-        potencia++;
+    let power = 0;
+    for(let i = number.length - 1; i >= 0; i--){
+        if(base == 16){
+            decimal += hexLetterForNumber(number[i]) * Math.pow(base, power);
+        }else{
+            decimal += number[i] * Math.pow(base, power);
+        }
+        power++;
     }
     return decimal;
 }
 
 const decToAllBases = (decimal, base) =>{
-    var conversao = "";
+    var conversion = "";
     if(decimal == 0){
         return 0;
     }
     while(decimal > 0){ 
         if(decimal % base == 0){
-            conversao = "0" + conversao;
+            conversion = "0" + conversion;
         }
         else {
             result = decimal % base
-            conversao = letrasHexa(result) + conversao;
+            conversion = numberToHexLetter(result) + conversion;
         }
 
         decimal = Math.floor(decimal / base);
     }
 
-    return conversao;
+    return conversion;
 }
 
 const binToAllBases = (bin, base) => {
@@ -58,3 +80,5 @@ const hexToAllBases = (hex, base) => {
 const octToAllBases = (oct, base) => {
     return decToAllBases(toDecimal(oct, 8), base);
 }
+
+
