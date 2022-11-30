@@ -74,6 +74,9 @@ const binToAllBases = (bin, base) => {
 }
 
 const hexToAllBases = (hex, base) => {
+    if (base == 16){
+        return numberToHexLetter(hex.toUpperCase());
+    }
     return decToAllBases(toDecimal(hex, 16), base);
 }
 
