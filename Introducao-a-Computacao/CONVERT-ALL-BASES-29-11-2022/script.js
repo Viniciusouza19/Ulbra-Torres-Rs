@@ -54,6 +54,9 @@ const decToAllBases = (decimal, base) =>{
     if(decimal == 0){
         return 0;
     }
+    if(base == 10){
+        return decimal;
+    }
     while(decimal > 0){ 
         if(decimal % base == 0){
             conversion = "0" + conversion;
@@ -70,6 +73,9 @@ const decToAllBases = (decimal, base) =>{
 }
 
 const binToAllBases = (bin, base) => {
+    if (base == 2){
+        return bin;
+    }
     return decToAllBases(toDecimal(bin, 2), base);
 }
 
@@ -81,6 +87,9 @@ const hexToAllBases = (hex, base) => {
 }
 
 const octToAllBases = (oct, base) => {
+    if (base == 8){
+        return oct;
+    }
     return decToAllBases(toDecimal(oct, 8), base);
 }
 
